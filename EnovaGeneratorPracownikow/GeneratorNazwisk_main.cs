@@ -12,7 +12,7 @@ namespace EnovaGeneratorPracownikow
         {
             Random r = new Random();
 
-            int plecInt = r.Next(0, 1);
+            int plecInt = r.Next(0, 2); // Generuje liczby 0 lub 1
 
             string plec = plecInt == 0 ? "K" : "M";
 
